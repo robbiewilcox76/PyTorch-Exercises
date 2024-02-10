@@ -87,3 +87,5 @@ with torch.no_grad():
     acc = 100.0 * n_correct / n_samples
 
 print(f'accuracy = {acc}')
+
+print(model.l2.weight)
